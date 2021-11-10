@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div>
+      <form action="" name="calculator">
+        <input type="text" class="text maincolor" name="text1" disabled />
+        <input
+          type="text"
+          class="text maincolor"
+          name="text12"
+          value="C"
+          onclick="location.reload()"
+        /><br />
+
+        <input
+          type="button"
+          class="num maincolor"
+          name="btn9"
+          value="9"
+          onclick="calculating(btn9.value)"
+        />
+        <input
+          type="button"
+          class="num maincolor"
+          name="btn8"
+          value="8"
+          onclick="calculating(btn8.value)"
+        />
+        <input
+          type="button"
+          class="num maincolor"
+          name="btn7"
+          value="7"
+          onclick="calculating(btn7.value)"
+        />
+        <input
+          type="button"
+          class="color btn"
+          name="addbtn"
+          value="+"
+          onclick="calculating(addbtn.value)"
+        /><br />
+
+        <input
+          type="button"
+          class="num maincolor"
+          name="btn6"
+          value="6"
+          onclick="displaynum(btn6.value)"
+        />
+        <input
+          type="button"
+          class="num maincolor"
+          name="btn5"
+          value="5"
+          onclick="displaynum(btn5.value)"
+        />
+        <input
+          type="button"
+          class="num maincolor"
+          name="btn4"
+          value="4"
+          onclick="displaynum(btn4.value)"
+        />
+        <input
+          type="button"
+          class="color btn"
+          name="subbtn"
+          value="-"
+          onclick="displaynum(subbtn.value)"
+        /><br />
+
+        <input
+          type="button"
+          class=""
+          name=""
+          value=""
+          onclick="displaynum(.value)"
+        />
+        <input
+          type="button"
+          class=""
+          name=""
+          value=""
+          onclick="displaynum(.value)"
+        />
+        <input
+          type="button"
+          class=""
+          name=""
+          value=""
+          onclick="displaynum(.value)"
+        />
+        <input
+          type="button"
+          class=""
+          name=""
+          value=""
+          onclick="displaynum(.value)"
+        /><br />
+
+        <input
+          type="button"
+          class=""
+          name=""
+          value=""
+          onclick="displaynum(.value)"
+        />
+        <input
+          type="button"
+          class=""
+          name=""
+          value=""
+          onclick="displaynum(.value)"
+        />
+        <input
+          type="button"
+          class=""
+          name=""
+          value=""
+          onclick="displaynum(.value)"
+        />
+        <input
+          type="button"
+          class=""
+          name=""
+          value=""
+          onclick="displaynum(.value)"
+        /><br />
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
